@@ -101,50 +101,50 @@ p {
   margin: 5px 35px 5px 105px;
 }
 .nota0{
-  background-image: url(200_front.jpg);
+  background-image: url(./);
   width: 525px;
   height: 230px;
   background-size:cover;
 } 
 .nota1{
-  background-image: url(nota100reais.png);
+  background-image: url(./nota100reais.png);
   width: 500px;
   height: 230px;
   background-size:cover;
 } 
 .nota2{
-  background-image: url(nota50reais.png);
+  background-image: url(./nota50reais.png);
   width: 450px;
   height: 200px;
   background-size:cover;
 } 
 .nota3{
-  background-image: url(nota20reais.png);
+  background-image: url(./nota20reais.png);
   width: 430px;
   height: 200px;
   background-size:cover;
 } 
 .nota4{
-  background-image: url(nota10reais.png);
+  background-image: url(./nota10reais.png);
   width: 420px;
   height: 200px;
   background-size:cover;
 } 
 .nota5{
-  background-image: url(nota5reais.png);
+  background-image: url(./nota5reais.png);
   width: 400px;
   height: 200px;
   background-size:cover;
 }
 .nota6{
-  background-image: url(nota2reais.png);
+  background-image: url(./nota2reais.png);
   width: 380px;
   height: 200px;
   background-size:cover;
 } 
 
 .nota7{
-  background-image: url(moeda1real.png);
+  background-image: url(./moeda1real.png);
   width: 100px;
   height: 100px;
   background-size:cover;
@@ -154,29 +154,29 @@ p {
 .moeda0{
   width: 100px;
   height: 100px;
-  background-image: url(moeda50cents.png);
+  background-image: url(./moeda50cents.png);
   background-size:cover;
 } 
 .moeda1{
-  background-image: url(moeda25cents.png);
+  background-image: url(./moeda25cents.png);
   width: 100px;
   height: 100px;
   background-size:cover;
 } 
 .moeda2{
-  background-image: url(Sem\ Título-1.png);
+  background-image: url(./Sem\ Título-1.png);
   width: 100px;
   height: 100px;
   background-size:cover;
 } 
 .moeda3{
-  background-image: url(moeda5cents.png);
+  background-image: url(./moeda5cents.png);
   width: 100px;
   height: 100px;
   background-size:cover;
 } 
 .moeda4{
-  background-image: url(moeda1centavo.png);
+  background-image: url(./moeda1centavo.png);
   width:100px;
   height: 100px;
   background-size:cover;
