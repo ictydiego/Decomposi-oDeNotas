@@ -1,0 +1,204 @@
+@import url('https://fonts.googleapis.com/css?family=Open+Sans:400,700&display=swap');
+:root {
+
+  --primary-color: rgb(126, 34, 187);
+  --primary-color-darker: rgb(9, 48, 56);
+}
+
+* {
+  box-sizing: border-box;
+  outline: 0;
+}
+
+input{
+  border-radius: 5px;
+  border-color: blueviolet;
+}
+h1{
+  font-style: italic;
+  font-size: 33px;
+}
+
+.caixa{
+  width: 250px;
+  margin-left: 180px;
+}
+.linkedinLogo,.gitHub{
+  width: 10%;
+  height: 20%;
+}
+.add{
+ list-style: none;
+}
+ol li{
+  margin-left: 5px;
+  
+}
+body {
+  margin: 0;
+  padding: 0;
+  background: var(--primary-color);
+  font-family: 'Open sans', sans-serif;
+  font-size: 1.3em;
+  line-height: 1.5em;
+}
+
+.container {
+  max-width: 640px;
+  margin: 50px auto;
+  background: #fff;
+  padding: 20px;
+  border-radius: 10px;
+}
+
+#calcularTroco{
+  border-radius: 50px;
+  padding: 5px;
+  margin-left: 250px;
+  align-items: center;
+}
+
+.cash{
+  text-align: center;
+  font-size: 40px ;
+}
+
+.valorInserido:focus{
+  background-color: aliceblue;
+}
+.valorInserido{
+  text-align: center;
+  font-size: 30px;
+  width: 500px;
+  height: 50px;
+  margin: 0 20px;
+}
+button{
+  font-size: 20px;
+  font-family: monospace;
+  background-color:  rgb(126, 34, 187);
+  color: white;
+}
+.buttonApaga {
+  width: 40px;
+  height: 30px;
+  margin-top: auto;
+  border-radius: 10px;
+  display: block;
+}
+
+p {
+  font-weight: 900;
+  font-family: sans-serif;
+  display: inline-flex;
+  font-size: 35px;
+  color: rgb(126, 34, 187);
+  background-color: rgb(255, 255, 255);
+  margin: 0;
+}
+
+.titulo{
+  margin: 5px 35px 5px 105px;
+}
+.nota0{
+  background-image: url(/assets/img/200_front.jpg);
+  width: 525px;
+  height: 230px;
+  background-size:cover;
+} 
+.nota1{
+  background-image: url(/assets/img/nota100reais.png);
+  width: 500px;
+  height: 230px;
+  background-size:cover;
+} 
+.nota2{
+  background-image: url(/assets/img/nota50reais.png);
+  width: 450px;
+  height: 200px;
+  background-size:cover;
+} 
+.nota3{
+  background-image: url(/assets/img/nota20reais.png);
+  width: 430px;
+  height: 200px;
+  background-size:cover;
+} 
+.nota4{
+  background-image: url(/assets/img/nota10reais.png);
+  width: 420px;
+  height: 200px;
+  background-size:cover;
+} 
+.nota5{
+  background-image: url(/assets/img/nota5reais.png);
+  width: 400px;
+  height: 200px;
+  background-size:cover;
+}
+.nota6{
+  background-image: url(/assets/img/nota2reais.png);
+  width: 380px;
+  height: 200px;
+  background-size:cover;
+} 
+
+.nota7{
+  background-image: url(/assets/img/moeda1real.png);
+  width: 100px;
+  height: 100px;
+  background-size:cover;
+  
+}
+
+.moeda0{
+  width: 100px;
+  height: 100px;
+  background-image: url(/assets/img/moeda50cents.png);
+  background-size:cover;
+} 
+.moeda1{
+  background-image: url(/assets/img/moeda25cents.png);
+  width: 100px;
+  height: 100px;
+  background-size:cover;
+} 
+.moeda2{
+  background-image: url(/assets/img/Sem\ Título-1.png);
+  width: 100px;
+  height: 100px;
+  background-size:cover;
+} 
+.moeda3{
+  background-image: url(/assets/img/moeda5cents.png);
+  width: 100px;
+  height: 100px;
+  background-size:cover;
+} 
+.moeda4{
+  background-image: url(/assets/img/moeda1centavo.png);
+  width:100px;
+  height: 100px;
+  background-size:cover;
+} 
+
+.moedas{
+  margin-left: 100px;
+}
+
+ /* Estilo para a aba */
+ .aba {
+  color: white;
+  text-align: center;
+  cursor: pointer;
+  padding: 10px;
+  background-color: rgb(126, 34, 187);
+  border: 1px solid #ffffff;
+  border-radius: 5px;
+}
+
+/* Estilo para esconder as checkboxes inicialmente */
+.escondido {
+  display: none;
+
+}

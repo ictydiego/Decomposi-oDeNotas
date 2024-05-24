@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Modelo</title>
+  <link rel="stylesheet" href="./assets/css/style.css">
+</head>
+
+<body>
+
+  <section class="container">
+    <h1 class="titulo">Decomposição De Notas</h1>
+    <img class="caixa"src="./assets/img/Caixa.png"></h1>
+    <a href="https://github.com/ictydiego"><img class="gitHub"src="./assets/img/128px-Github-desktop-logo-symbol.svg.png"></a>
+    <a href="https://www.linkedin.com/in/diego-gon%C3%A7alves-de-oliveira-8b2b71227"><img class="linkedinLogo" src=".//assets/img/linkedinLogo.png"></a>
+    <p class="cash">R$<input type="number" class="valorInserido" placeholder="Digite o valor a decompor"></p>
+    
+
+    <div class="aba" onclick="toggleCheckboxes()">Notas Indisponiveis no caixa? Clique aqui!</div>
+    <div class="escondido" id="notasMoedas">
+          <fieldset>
+            <legend>Notas Indisponiveis</legend>
+            <div>
+              <input type="checkbox" id="codificação" name="interesse" value="200" />
+              <label for="coding"> Nota de R$200,00 </label>
+            </div>
+            <div>
+              <input type="checkbox" id="codificação" name="interesse" value="100" />
+              <label for="coding"> Nota de R$100,00 </label>
+            </div>
+            <div>
+              <input type="checkbox" id="codificação" name="interesse" value="50" />
+              <label for="coding"> Nota de R$50,00 </label>
+            </div>
+            <div>
+              <input type="checkbox" id="codificação" name="interesse" value="20" />
+              <label for="coding"> Nota de R$20,00 </label>
+            </div>
+            <div>
+              <input type="checkbox" id="codificação" name="interesse" value="10" />
+              <label for="coding"> Nota de R$10,00 </label>
+            </div>
+            <div>
+              <input type="checkbox" id="codificação" name="interesse" value="05" />
+              <label for="coding"> Nota de R$5,00 </label>
+            </div>
+            <div>
+              <input type="checkbox" id="codificação" name="interesse" value="02" />
+              <label for="coding"> Nota de R$2,00 </label>
+            </div>
+            
+           
+            <legend>Moedas Indisponiveis</legend>
+            <div>
+              <input type="checkbox" id="codificação" name="interesse" value="1" />
+              <label for="coding"> Moeda de R$1,00 </label>
+            </div>
+            <div>
+              <input type="checkbox" id="moedas" name="interesse" value="0.50" />
+              <label for="coding"> Moeda de R$0,50 </label>
+            </div>
+            <div>
+              <input type="checkbox" id="moedas" name="interesse" value="0.25" />
+              <label for="coding"> Moeda de R$0,25 </label>
+            </div>
+            <div>
+              <input type="checkbox" id="moedas" name="interesse" value="0.10" />
+              <label for="coding"> Moeda de R$0,10 </label>
+            </div>
+            <div>
+              <input type="checkbox" id="moedas" name="interesse" value="0.05" />
+              <label for="coding"> Moeda de R$0,05 </label>
+            </div>
+            <div>
+              <input type="checkbox" id="moedas" name="interesse" value=0.01/>
+              <label for="coding"> Moeda de R$0,01 </label>
+            </div>
+            
+          </fieldset>
+      
+      
+    </div>
+
+
+   
+  <button id="calcularTroco" class="calcularTroco" onclick=calcularNotasMoedas();
+  >Decompor</button>
+  <p>
+  <ol class="add"></ol>
+</p>
+  </section>
+
+  
+
+  <script src="./assets/js/main.js"></script>
+</body>
+
+</html>
